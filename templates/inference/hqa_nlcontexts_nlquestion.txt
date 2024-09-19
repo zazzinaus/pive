@@ -1,0 +1,15 @@
+<|system|>
+Given a open answer question and a set of contexts, the task is to answer the question based on the contexts provided.
+Be as coincise as possible in your answer and do not provide any additional information that is not directly related to the question.
+Do not provide any explanation or additional information in the answer. The answer should be a single sentence and must contain up to 5 words.
+<|end|>
+
+<|user|>
+### Contexts
+{nl_contexts}
+
+### Question
+{nl_question}
+
+### Answer
+<|assistant|>

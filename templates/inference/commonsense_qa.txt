@@ -1,0 +1,31 @@
+<|system|>
+Given a question writte in first-order logic and a set of possible answers, you must answer with the correct choice.
+In the answer you have to write only the letter of the correct choice and nothing else. You cannot write anything else in the answer.
+Do not provide any explanation or additional information in the answer. You are allowed to write only the letter of the correct choice and nothing else.
+You can use the following example to understand how to answer.
+### Example
+```
+### Question
+∀x (isCapital(x, France) → isCity(x) ∧ isLocatedIn(x, Europe))
+
+### Possible Answers
+A) Madrid
+B) Paris
+C) Rome
+D) London
+
+### Answer
+B
+```
+<|end|>
+
+<|user|>
+### Question
+{question}
+
+### Possible Answers
+{possible_answers}
+<|end|>
+
+### Answer
+<|assistant|>

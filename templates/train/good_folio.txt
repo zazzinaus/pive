@@ -1,0 +1,28 @@
+### INSTRUCTION
+Correct only the following first-order logic premises and conclusion translated from the given natural language statements.
+Answer with the correction of the first-order logic statements if "already correct: false", with "N/A" if "alreadycorrect: true" instead.
+Only include the FOL rule in the answer box after "### FOL Correction:". Do not add any extra symbols or words to the FOL rule. Do not include any kind of explanation or description in the answer box.
+Respond only in this format and nothing else:
+
+### FOL premises: 
+Correction of the FOL tranlastion of premises or "N/A".
+
+### FOL conclusion: 
+Correction of the FOL translation of the conclusion or "N/A".
+
+
+### NL premises:
+{premises}
+
+### NL conclusion:
+{question}
+
+### Pred FOL:
+{generated_fol}
+
+### Errors:
+{parsing_error} {exec_error}
+
+already correct: {is_correct}
+
+### FOL Correction:

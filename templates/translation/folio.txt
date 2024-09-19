@@ -1,0 +1,54 @@
+### Instruction:
+Translate the following natural language (NL) premises and conclusions to first-order logic (FOL) rules.
+Only translate the sentence to FOL, do not include any other information. Only include the FOL rule in the answer box.
+Do not add any extra symbols or words to the FOL rule. Do not include any kind of explanation or description in the answer box.
+Take the following NL to FOL as an example
+```
+# Example 1:
+###NL premises:
+All people who regularly drink coffee are dependent on caffeine.
+People regularly drink coffee, or they don't want to be addicted to caffeine, or both.
+No one who doesn't want to be addicted to caffeine is unaware that caffeine is a drug.
+Rina is either a student who is unaware that caffeine is a drug, or she is not a student and is she aware that caffeine is a drug.
+Rina  is either a student who is dependent on caffeine, or she is not a student and not dependent on caffeine
+
+### NL conclusion:
+Rina either doesn't want to be addicted to caffeine or is unaware that caffeine is a drug.
+
+### FOL premises:
+∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))
+∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))
+∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))
+¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))
+¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))
+
+### FOL conclusion:
+¬WantToBeAddictedTo(rina, caffeine) ⊕ ¬AwareThatDrug(rina, caffeine)
+
+
+# Example 2:
+###NL premises:
+All people who regularly drink coffee are dependent on caffeine.
+People regularly drink coffee, or they don't want to be addicted to caffeine, or both.
+No one who doesn't want to be addicted to caffeine is unaware that caffeine is a drug.
+Rina is either a student who is unaware that caffeine is a drug, or she is not a student and is she aware that caffeine is a drug.
+Rina  is either a student who is dependent on caffeine, or she is not a student and not dependent on caffeine
+
+### NL conclusion:
+Rina either doesn't want to be addicted to caffeine or is unaware that caffeine is a drug.
+
+### FOL premises:
+∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))
+∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))
+∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))
+¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))
+¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))
+
+### FOL conclusion:
+DrinkRegularly(rina, coffee)  ⊕ IsUnawareThatCaffeineIsADrug(rina)
+
+Now, translate the following NL to FOL
+### NL premises:
+{premises}
+### NL conclusion:
+{question}

@@ -1,0 +1,93 @@
+### Instruction:
+Correct the following first-order logic (FOL) premises and conclusion from the given natural language statements.
+Answer only with the corrected first-order logic statements if there are any errors, with THE VERY SAME first-order logic statements otherwise.
+Only include the FOL rule in the answer box after "### Note:". Do not add any extra symbols or words to the FOL rule. Do not include any kind of explanation or description in the answer box.
+Respond only in the format:
+FOL premises: 
+Correction of the FOL traduction of premises.
+
+FOL conclusion: 
+Correction of the FOL traduction of the conclusion.
+Follow these examples:
+
+# Example 1
+NL premises:
+All people who regularly drink coffee are dependent on caffeine.
+People regularly drink coffee, or they don't want to be addicted to caffeine, or both.
+No one who doesn't want to be addicted to caffeine is unaware that caffeine is a drug.
+Rina is either a student who is unaware that caffeine is a drug, or she is not a student and is she aware that caffeine is a drug.
+Rina  is either a student who is dependent on caffeine, or she is not a student and not dependent on caffeine
+
+NL conclusion:
+Rina either doesn't want to be addicted to caffeine or is unaware that caffeine is a drug.
+
+### Traduction:
+FOL premises:
+∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))
+∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))
+∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))
+¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))
+¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))
+
+FOL conclusion:
+¬WantToBeAddictedTo(rina, caffeine) ⊕ ¬AwareThatDrug(rina, caffeine)
+
+### Errors:
+
+### Note:
+FOL premises:
+∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))
+∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))
+∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))
+¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))
+¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))
+
+FOL conclusion:
+¬WantToBeAddictedTo(rina, caffeine) ⊕ ¬AwareThatDrug(rina, caffeine)
+
+# Example 2
+NL premises:
+All people who regularly drink coffee are dependent on caffeine.
+People regularly drink coffee, or they don't want to be addicted to caffeine, or both.
+No one who doesn't want to be addicted to caffeine is unaware that caffeine is a drug.
+Rina is either a student who is unaware that caffeine is a drug, or she is not a student and is she aware that caffeine is a drug.
+Rina  is either a student who is dependent on caffeine, or she is not a student and not dependent on caffeine
+
+NL conclusion:
+Rina doesn't want to be addicted to caffeine or is unaware that caffeine is a drug.
+
+### Traduction:
+FOL premises:
+∀x (DrinkRegularly(x
+FOL conclusion:
+¬WantToBeAddictedTo(rina, caffeine) ∨ ¬AwareThatDrug(rina, 
+
+### Errors:
+parsing error
+
+### Note:
+FOL premises:
+∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))
+∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))
+∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))
+¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))
+¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))
+
+FOL conclusion:
+¬WantToBeAddictedTo(rina, caffeine) ∧ ¬AwareThatDrug(rina, caffeine)
+
+# Now correct the following FOL traduction of these NL statementes:
+NL premises:
+{premises}
+
+NL conclusion:
+{question}
+
+### Traduction:
+{generated_fol}
+
+### Errors:
+{parsing_error}
+{exec_error}
+
+### Note:

@@ -1,0 +1,19 @@
+<|system|>
+Given a open answer question written both in natural language and in first-order logic, and a set of contexts written in first order logic, the task is to answer the question in natural language based on the contexts provided.
+Be as coincise as possible in your answer and do not provide any additional information that is not directly related to the question.
+Do not provide any explanation or additional information in the answer. You must provide the answer in natural language.
+The answer should be a single sentence and must contain up to 5 words.
+<|end|>
+
+<|user|>
+### Contexts
+{fol_contexts}
+
+### Question in Natural Language
+{nl_question}
+
+### Question in First Order Logic
+{fol_question}
+
+### Answer
+<|assistant|>
