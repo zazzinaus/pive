@@ -1,0 +1,2081 @@
+[
+    {
+        "example_id": 1126,
+        "generated_premise": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))",
+        "gold_premise": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1126,
+        "generated_premise": "∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))",
+        "gold_premise": "∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1126,
+        "generated_premise": "∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))",
+        "gold_premise": "∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1126,
+        "generated_premise": "¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))",
+        "gold_premise": "¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1126,
+        "generated_premise": "¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))",
+        "gold_premise": "¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1126,
+        "generated_conclusion": "(¬WantToBeAddictedTo(rina, caffeine) ∨ ¬AwareThatDrug(rina, caffeine))",
+        "gold_conclusion": "¬WantToBeAddictedTo(rina, caffeine) ∨ (¬AwareThatDrug(rina, caffeine))",
+        "bleu_conclusion": 0.855526185871245,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 1127,
+        "generated_premise": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))",
+        "gold_premise": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1127,
+        "generated_premise": "∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))",
+        "gold_premise": "∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1127,
+        "generated_premise": "∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))",
+        "gold_premise": "∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1127,
+        "generated_premise": "¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))",
+        "gold_premise": "¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1127,
+        "generated_premise": "¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))",
+        "gold_premise": "¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1127,
+        "generated_conclusion": "¬WantToBeAddictedTo(rina, caffeine) ∨ IsUnawareThatCaffeineIsADrug(rina)",
+        "gold_conclusion": "¬WantToBeAddictedTo(rina, caffeine) ⊕ ¬AwareThatDrug(rina, caffeine)",
+        "bleu_conclusion": 0.4563040025536,
+        "LE_conclusion": 0.25
+    },
+    {
+        "example_id": 1128,
+        "generated_premise": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))",
+        "gold_premise": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1128,
+        "generated_premise": "∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))",
+        "gold_premise": "∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1128,
+        "generated_premise": "∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))",
+        "gold_premise": "∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1128,
+        "generated_premise": "¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))",
+        "gold_premise": "¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1128,
+        "generated_premise": "¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))",
+        "gold_premise": "¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1128,
+        "generated_conclusion": "DrinkRegularly(rina, coffee) ∨ IsUnawareThatCaffeineIsADrug(rina)",
+        "gold_conclusion": "DrinkRegularly(rina, coffee)  ⊕ IsUnawareThatCaffeineIsADrug(rina)",
+        "bleu_conclusion": 0.7016879391277371,
+        "LE_conclusion": 0.75
+    },
+    {
+        "example_id": 1129,
+        "generated_premise": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))",
+        "gold_premise": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1129,
+        "generated_premise": "∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))",
+        "gold_premise": "∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1129,
+        "generated_premise": "∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))",
+        "gold_premise": "∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1129,
+        "generated_premise": "¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))",
+        "gold_premise": "¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1129,
+        "generated_premise": "¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))",
+        "gold_premise": "¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1129,
+        "generated_conclusion": "(¬WantToBeAddictedTo(rina, caffeine) ∧ ¬AwareThatDrug(rina, caffeine)) ⊃ ¬WantToBeAddictedTo(rina, caffeine) ∧ DrinkRegularly(rina, coffee)",
+        "gold_conclusion": "(DoNotWantToBeAddictedToCaffeine(rina) ⊕ ¬AwareThatDrug(rina, caffeine)) → ¬(¬WantToBeAddictedTo(rina, caffeine) ∧ DrinkRegularly(rina, coffee))",
+        "bleu_conclusion": 0.6866564606644852,
+        "LE_conclusion": 0.0
+    },
+    {
+        "example_id": 20,
+        "generated_premise": "∀x (ChoralConductor(x) → Musician(x))",
+        "gold_premise": "Czech(miroslav) ∧ ChoralConductor(miroslav) ∧ SpecializeInPerformanceOf(miroslav, renaissanceMusic) ∧ SpecializeInPerformanceOf(miroslav, baroqueMusic)",
+        "bleu": 0.0,
+        "LE": 0.3125
+    },
+    {
+        "example_id": 20,
+        "generated_premise": "∃x (Musician(x) ∧ Love(x, music))",
+        "gold_premise": "∀x (ChoralConductor(x) → Musician(x))",
+        "bleu": 0.2460137257692754,
+        "LE": 0.5
+    },
+    {
+        "example_id": 20,
+        "generated_premise": "∃x (Musician(x) ∧ Love(x, music))",
+        "gold_premise": "∃x ∃y ((Musician(x) → Love(x, music)) ∧ (¬(x=y) ∧ Musician(y) → Love(y, music)))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 20,
+        "generated_premise": "∃x (ChoralConductor(x) ∧ Published(x, \"Method of Studying Gregorian Chant\", 1946))",
+        "gold_premise": "PublishedBook(miroslav, methodOfStudyingGregorianChant, yr1946)",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 20,
+        "generated_conclusion": "Love(miroslav_venhoda, music)",
+        "gold_conclusion": "Love(miroslav, music)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 21,
+        "generated_premise": "∀x (ChoralConductor(x) → Musician(x))",
+        "gold_premise": "Czech(miroslav) ∧ ChoralConductor(miroslav) ∧ SpecializeInPerformanceOf(miroslav, renaissanceMusic) ∧ SpecializeInPerformanceOf(miroslav, baroqueMusic)",
+        "bleu": 0.0,
+        "LE": 0.3125
+    },
+    {
+        "example_id": 21,
+        "generated_premise": "∃x (Musician(x) ∧ Love(x, music))",
+        "gold_premise": "∀x (ChoralConductor(x) → Musician(x))",
+        "bleu": 0.2460137257692754,
+        "LE": 0.5
+    },
+    {
+        "example_id": 21,
+        "generated_premise": "∃x (ChoralConductor(x) ∧ PublishedBook(x, 1946, Method of Studying Gregorian Chant))",
+        "gold_premise": "∃x ∃y ((Musician(x) → Love(x, music)) ∧ (¬(x=y) ∧ Musician(y) → Love(y, music)))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 21,
+        "generated_premise": "∃x (Czech(x) ∧ ChoralConductor(x))",
+        "gold_premise": "PublishedBook(miroslav, methodOfStudyingGregorianChant, yr1946)",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 21,
+        "generated_conclusion": "∃x (Czech(x) ∧ PublishedBook(x, 1946, Method of Studying Gregorian Chant))",
+        "gold_conclusion": "∃x ∃y (Czech(x) ∧ PublishedBook(x, y, year1946))",
+        "bleu_conclusion": 0.5638031197306216,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 22,
+        "generated_premise": "∃x (ChoralConductor(x) ∧ SpecializedIn(x, RenaissanceAndBaroqueMusic))",
+        "gold_premise": "Czech(miroslav) ∧ ChoralConductor(miroslav) ∧ SpecializeInPerformanceOf(miroslav, renaissanceMusic) ∧ SpecializeInPerformanceOf(miroslav, baroqueMusic)",
+        "bleu": 0.0,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 22,
+        "generated_premise": "∀x (ChoralConductor(x) → Musician(x))",
+        "gold_premise": "∀x (ChoralConductor(x) → Musician(x))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 22,
+        "generated_premise": "∃x (Musician(x) ∧ LovesMusic(x))",
+        "gold_premise": "∃x ∃y ((Musician(x) → Love(x, music)) ∧ (¬(x=y) ∧ Musician(y) → Love(y, music)))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 22,
+        "generated_premise": "∃x (PublishedBook(x, \"Method of Studying Gregorian Chant\") ∧ YearOfPublication(x, 1946) ∧ x = MiroslavVenhoda)",
+        "gold_premise": "PublishedBook(miroslav, methodOfStudyingGregorianChant, yr1946)",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 22,
+        "generated_conclusion": "¬∃x (ChoralConductor(x) ∧ SpecializedIn(x, RenaissanceAndBaroqueMusic))",
+        "gold_conclusion": "∀x (ChoralConductor(x) → ¬SpecializeInPerformanceOf(x, renaissanceMusic))",
+        "bleu_conclusion": 0.4261082723917018,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 1336,
+        "generated_premise": "∀x (IsEel(x) → IsFish(x))",
+        "gold_premise": "∀x (Eel(x) → Fish(x))",
+        "bleu": 0.4758733096412523,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1336,
+        "generated_premise": "∀x (IsFish(x) → ¬IsPlant(x))",
+        "gold_premise": "∀x (Fish(x) → ¬Plant(x))",
+        "bleu": 0.5333505353503043,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1336,
+        "generated_premise": "∀x (IsDisplayedIn(x, collection) → (IsPlant(x) ∨ IsAnimal(x)))",
+        "gold_premise": "∀x (DisplayedIn(x, collection) → Plant(x) ⊕ Animal(x))",
+        "bleu": 0.4325202135183669,
+        "LE": 0.625
+    },
+    {
+        "example_id": 1336,
+        "generated_premise": "∀x (IsMulticellularAnimal(x) → ¬IsBacteria(x))",
+        "gold_premise": "∀x (Multicellular(x) → ¬Bacteria(x))",
+        "bleu": 0.5333505353503043,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1336,
+        "generated_premise": "∀x (IsDisplayedIn(x, collection) → IsMulticellularAnimal(x))",
+        "gold_premise": "∀x (DisplayedIn(x, collection) ∧ Animal(x) → Multicellular(x))",
+        "bleu": 0.3704274515363968,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1336,
+        "generated_premise": "IsDisplayedIn(sea_eel, collection)",
+        "gold_premise": "DisplayedIn(seaEel, collection)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1336,
+        "generated_premise": "IsEel(sea_eel) ∨ IsAnimal(sea_eel) ∨ ¬IsPlant(sea_eel)",
+        "gold_premise": "Eel(seaEel) ∨ Animal(seaEel) ∨ ¬Plant(seaEel)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1336,
+        "generated_conclusion": "IsEel(sea_eel)",
+        "gold_conclusion": "Eel(seaEel)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 1337,
+        "generated_premise": "∀x (Eel(x) → Fish(x))",
+        "gold_premise": "∀x (Eel(x) → Fish(x))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1337,
+        "generated_premise": "∀x (Fish(x) → ¬Plant(x))",
+        "gold_premise": "∀x (Fish(x) → ¬Plant(x))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1337,
+        "generated_premise": "∀x (InCollection(x) → (Plant(x) ∨ Animal(x)))",
+        "gold_premise": "∀x (DisplayedIn(x, collection) → Plant(x) ⊕ Animal(x))",
+        "bleu": 0.4062749424452353,
+        "LE": 0.625
+    },
+    {
+        "example_id": 1337,
+        "generated_premise": "∀x (MulticellularAnimal(x) → ¬Bacteria(x))",
+        "gold_premise": "∀x (Multicellular(x) → ¬Bacteria(x))",
+        "bleu": 0.7825422900366437,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1337,
+        "generated_premise": "∀x (InCollection(x) → MulticellularAnimal(x))",
+        "gold_premise": "∀x (DisplayedIn(x, collection) ∧ Animal(x) → Multicellular(x))",
+        "bleu": 0.2777413053413338,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1337,
+        "generated_premise": "InCollection(sea_eel)",
+        "gold_premise": "DisplayedIn(seaEel, collection)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1337,
+        "generated_premise": "AnimalOrEelOrNotPlant(sea_eel)",
+        "gold_premise": "Eel(seaEel) ∨ Animal(seaEel) ∨ ¬Plant(seaEel)",
+        "bleu": 0.0,
+        "LE": 0.625
+    },
+    {
+        "example_id": 1337,
+        "generated_conclusion": "Bacteria(sea_eel)",
+        "gold_conclusion": "Bacteria(seaEel)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 1338,
+        "generated_premise": "∀x (Eel(x) → Fish(x))",
+        "gold_premise": "∀x (Eel(x) → Fish(x))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1338,
+        "generated_premise": "∀x (Fish(x) → ¬Plant(x))",
+        "gold_premise": "∀x (Fish(x) → ¬Plant(x))",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1338,
+        "generated_premise": "∀x (InCollection(x) → Plant(x) ∨ Animal(x))",
+        "gold_premise": "∀x (DisplayedIn(x, collection) → Plant(x) ⊕ Animal(x))",
+        "bleu": 0.5088645484558708,
+        "LE": 0.625
+    },
+    {
+        "example_id": 1338,
+        "generated_premise": "∀x (MulticellularAnimal(x) → ¬Bacteria(x))",
+        "gold_premise": "∀x (Multicellular(x) → ¬Bacteria(x))",
+        "bleu": 0.7825422900366437,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1338,
+        "generated_premise": "∀x (InCollection(x) → MulticellularAnimal(x))",
+        "gold_premise": "∀x (DisplayedIn(x, collection) ∧ Animal(x) → Multicellular(x))",
+        "bleu": 0.2777413053413338,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1338,
+        "generated_premise": "InCollection(seaEel)",
+        "gold_premise": "DisplayedIn(seaEel, collection)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1338,
+        "generated_premise": "SeaEelIsEitherEelOrAnimalOrNotPlant(SeaEel)",
+        "gold_premise": "Eel(seaEel) ∨ Animal(seaEel) ∨ ¬Plant(seaEel)",
+        "bleu": 0.0,
+        "LE": 0.625
+    },
+    {
+        "example_id": 1338,
+        "generated_conclusion": "MulticellularAnimal(seaEel) ∨ Bacteria(seaEel)",
+        "gold_conclusion": "Multicellular(seaEel) ∨ Bacteria(seaEel)",
+        "bleu_conclusion": 0.8633400213704505,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 392,
+        "generated_premise": "AddedToNationalRegister(r, 1990) ∧ Name(r, Blake McFall Company Building)",
+        "gold_premise": "Building(blakeMcFallCompanyBuilding) ∧ AddedToIn(blakeMcFallCompanyBuilding, theNationalRegisterOfHistoricPlaces, year1990)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 392,
+        "generated_premise": "FiveStories(e) ∧ Location(e, Portland, Oregon)",
+        "gold_premise": "Building(emmetBuilding) ∧ Five-Story(emmetBuilding) ∧ LocatedIn(emmetBuilding, portland) ∧ LocatedIn(portland, oregon))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 392,
+        "generated_premise": "BuiltIn(e, 1915)",
+        "gold_premise": "BuiltIn(emmetBuilding, year1915)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 392,
+        "generated_premise": "Synonym(e, Emmet Building, Blake McFall Company Building)",
+        "gold_premise": "emmetBuiling=blakeMcFallCompanyBuilding",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 392,
+        "generated_premise": "WorksAt(j, e)",
+        "gold_premise": "WorkAt(john, emmetBuilding)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 392,
+        "generated_conclusion": "∃x (FiveStories(x) ∧ BuiltIn(x, 1915))",
+        "gold_conclusion": "∃x (Building(x) ∧ Five-Story(x) ∧ ConstructedIn(x, year1915))",
+        "bleu_conclusion": 0.2357664506880305,
+        "LE_conclusion": 0.875
+    },
+    {
+        "example_id": 393,
+        "generated_premise": "AddedToRegister(BlakeMcFallCompanyBuilding, 1990)",
+        "gold_premise": "Building(blakeMcFallCompanyBuilding) ∧ AddedToIn(blakeMcFallCompanyBuilding, theNationalRegisterOfHistoricPlaces, year1990)",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 393,
+        "generated_premise": "FiveStories(EmmetBuilding, Portland, Oregon)",
+        "gold_premise": "Building(emmetBuilding) ∧ Five-Story(emmetBuilding) ∧ LocatedIn(emmetBuilding, portland) ∧ LocatedIn(portland, oregon))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 393,
+        "generated_premise": "BuiltIn(EmmetBuilding, 1915)",
+        "gold_premise": "BuiltIn(emmetBuilding, year1915)",
+        "bleu": 0.537284965911771,
+        "LE": 1.0
+    },
+    {
+        "example_id": 393,
+        "generated_premise": "≡(EmmetBuilding, BlakeMcFallCompanyBuilding)",
+        "gold_premise": "emmetBuiling=blakeMcFallCompanyBuilding",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 393,
+        "generated_premise": "WorksAt(John, EmmetBuilding)",
+        "gold_premise": "WorkAt(john, emmetBuilding)",
+        "bleu": 0.7598356856515925,
+        "LE": 1.0
+    },
+    {
+        "example_id": 393,
+        "generated_conclusion": "LocatedIn(BlakeMcFallCompanyBuilding, Portland, Oregon)",
+        "gold_conclusion": "LocatedIn(blakeMcFallCompanyBuilding, portland)",
+        "bleu_conclusion": 0.5410822690539396,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 394,
+        "generated_premise": "BuiltIn(BlakeMcFallCompanyBuilding, 1990)",
+        "gold_premise": "Building(blakeMcFallCompanyBuilding) ∧ AddedToIn(blakeMcFallCompanyBuilding, theNationalRegisterOfHistoricPlaces, year1990)",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 394,
+        "generated_premise": "FiveStories(EmmetBuilding)",
+        "gold_premise": "Building(emmetBuilding) ∧ Five-Story(emmetBuilding) ∧ LocatedIn(emmetBuilding, portland) ∧ LocatedIn(portland, oregon))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 394,
+        "generated_premise": "BuiltIn(EmmetBuilding, 1915)",
+        "gold_premise": "BuiltIn(emmetBuilding, year1915)",
+        "bleu": 0.537284965911771,
+        "LE": 1.0
+    },
+    {
+        "example_id": 394,
+        "generated_premise": "EmmetBuilding = BlakeMcFallCompanyBuilding",
+        "gold_premise": "emmetBuiling=blakeMcFallCompanyBuilding",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 394,
+        "generated_premise": "WorksAt(John, EmmetBuilding)",
+        "gold_premise": "WorkAt(john, emmetBuilding)",
+        "bleu": 0.7598356856515925,
+        "LE": 1.0
+    },
+    {
+        "example_id": 394,
+        "generated_conclusion": "WorksAt(John, BlakeMcFallCompanyBuilding) → BuiltIn(BlakeMcFallCompanyBuilding, 1990)",
+        "gold_conclusion": "StartCurrentJobIn(john, year1990)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.75
+    },
+    {
+        "example_id": 636,
+        "generated_premise": "AttendedSchool(WD, Westminster)",
+        "gold_premise": "British(williamDickinson) ∧ Politician(williamDickinson) ∧ SatIn(williamDickinson, houseOfCommons)",
+        "bleu": 0.0,
+        "LE": 0.625
+    },
+    {
+        "example_id": 636,
+        "generated_premise": "AttendedUniversity(WD, Edinburgh)",
+        "gold_premise": "Attended(williamDickinson, westminsterSchool) ∧ Highschool(westminsterSchool) ∧ Attended(williamDickinson, universityOfEdinburgh)",
+        "bleu": 0.0,
+        "LE": 0.625
+    },
+    {
+        "example_id": 636,
+        "generated_premise": "LocatedIn(Edinburgh, UK)",
+        "gold_premise": "University(universityOfEdinburgh) ∧ LocatedIn(universityOfEdinburgh, unitedKingdom)",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 636,
+        "generated_premise": "Supported(WD, PortlandWhigs)",
+        "gold_premise": "Supported(williamDickinson, portlandWhigs)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 636,
+        "generated_premise": "¬(Supported(x, PortlandWhigs) → GotSeatInParliament(x))",
+        "gold_premise": "∀x (Supported(x, portlandWhigs) → ¬SatIn(x, parliament))",
+        "bleu": 0.4646022531439002,
+        "LE": 0.5
+    },
+    {
+        "example_id": 636,
+        "generated_conclusion": "¬GotSeatInParliament(WD)",
+        "gold_conclusion": "SatIn(williamDickinson, parliament)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.0
+    },
+    {
+        "example_id": 637,
+        "generated_premise": "AttendedWestminsterSchool(william_dickinson)",
+        "gold_premise": "British(williamDickinson) ∧ Politician(williamDickinson) ∧ SatIn(williamDickinson, houseOfCommons)",
+        "bleu": 0.0,
+        "LE": 0.625
+    },
+    {
+        "example_id": 637,
+        "generated_premise": "AttendedUniversityOfEdinburgh(william_dickinson)",
+        "gold_premise": "Attended(williamDickinson, westminsterSchool) ∧ Highschool(westminsterSchool) ∧ Attended(williamDickinson, universityOfEdinburgh)",
+        "bleu": 0.0,
+        "LE": 0.625
+    },
+    {
+        "example_id": 637,
+        "generated_premise": "LocatedIn(UniversityOfEdinburgh, UnitedKingdom)",
+        "gold_premise": "University(universityOfEdinburgh) ∧ LocatedIn(universityOfEdinburgh, unitedKingdom)",
+        "bleu": 0.43459820850707814,
+        "LE": 0.75
+    },
+    {
+        "example_id": 637,
+        "generated_premise": "SupportedPortlandWhigs(william_dickinson)",
+        "gold_premise": "Supported(williamDickinson, portlandWhigs)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 637,
+        "generated_premise": "¬SeatInParliament(SupportedPortlandWhigs(x))",
+        "gold_premise": "∀x (Supported(x, portlandWhigs) → ¬SatIn(x, parliament))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 637,
+        "generated_conclusion": "LocatedIn(SchoolAttended(william_dickinson, high_school), UnitedKingdom) ∧ LocatedIn(SchoolAttended(william_dickinson, university), UnitedKingdom)",
+        "gold_conclusion": "∃x ∃y (Attended(williamDickinson, x) ∧ Highschool(x) ∧ LocatedIn(x, unitedKingdom) ∧ Attended(williamDickinson, y) ∧ University(y) ∧ LocatedIn(y, unitedKingdom))",
+        "bleu_conclusion": 0.12025227342064214,
+        "LE_conclusion": 0.0
+    },
+    {
+        "example_id": 638,
+        "generated_premise": "∃x (Politician(x) ∧ MemberOfParliament(x, HouseOfCommons) ∧ Name(x, \"William Dickinson\"))",
+        "gold_premise": "British(williamDickinson) ∧ Politician(williamDickinson) ∧ SatIn(williamDickinson, houseOfCommons)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 638,
+        "generated_premise": "∃x (AttendedHighSchool(x, Westminster) ∧ AttendedUniversity(x, Edinburgh))",
+        "gold_premise": "Attended(williamDickinson, westminsterSchool) ∧ Highschool(westminsterSchool) ∧ Attended(williamDickinson, universityOfEdinburgh)",
+        "bleu": 0.0,
+        "LE": 0.875
+    },
+    {
+        "example_id": 638,
+        "generated_premise": "Location(UniversityOfEdinburgh, UnitedKingdom)",
+        "gold_premise": "University(universityOfEdinburgh) ∧ LocatedIn(universityOfEdinburgh, unitedKingdom)",
+        "bleu": 0.3302232277439295,
+        "LE": 0.75
+    },
+    {
+        "example_id": 638,
+        "generated_premise": "Supported(Politician(William Dickinson), PortlandWhigs)",
+        "gold_premise": "Supported(williamDickinson, portlandWhigs)",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 638,
+        "generated_premise": "¬(Supported(Politician(x), PortlandWhigs) → MemberOfParliament(x, HouseOfCommons))",
+        "gold_premise": "∀x (Supported(x, portlandWhigs) → ¬SatIn(x, parliament))",
+        "bleu": 0.27130567714631193,
+        "LE": 0.0
+    },
+    {
+        "example_id": 638,
+        "generated_conclusion": "AttendedUniversity(William Dickinson, UnitedKingdom)",
+        "gold_conclusion": "∃x (Attended(williamDickinson, x) ∧ University(x) ∧ LocatedIn(x, unitedKingdom))",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.625
+    },
+    {
+        "example_id": 639,
+        "generated_premise": "AttendedSchool(William Dickinson, Westminster) ∧ AttendedUniversity(William Dickinson, UniversityOfEdinburgh)",
+        "gold_premise": "British(williamDickinson) ∧ Politician(williamDickinson) ∧ SatIn(williamDickinson, houseOfCommons)",
+        "bleu": 0.0,
+        "LE": 0.875
+    },
+    {
+        "example_id": 639,
+        "generated_premise": "Location(UniversityOfEdinburgh, UnitedKingdom)",
+        "gold_premise": "Attended(williamDickinson, westminsterSchool) ∧ Highschool(westminsterSchool) ∧ Attended(williamDickinson, universityOfEdinburgh)",
+        "bleu": 0.0,
+        "LE": 0.625
+    },
+    {
+        "example_id": 639,
+        "generated_premise": "Supported(William Dickinson, PortlandWhigs)",
+        "gold_premise": "University(universityOfEdinburgh) ∧ LocatedIn(universityOfEdinburgh, unitedKingdom)",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 639,
+        "generated_premise": "∀x (Supported(x, PortlandWhigs) → ¬SeatInParliament(x))",
+        "gold_premise": "Supported(williamDickinson, portlandWhigs)",
+        "bleu": 0.0,
+        "LE": 0.25
+    },
+    {
+        "example_id": 639,
+        "generated_conclusion": "SeatInParliament(William Dickinson)",
+        "gold_conclusion": "SatIn(williamDickinson, houseOfCommons)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 690,
+        "generated_premise": "N/A",
+        "gold_premise": "N/A",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 690,
+        "generated_conclusion": "N/A",
+        "gold_conclusion": "N/A",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.0
+    },
+    {
+        "example_id": 1192,
+        "generated_premise": "∀x (InJamesFamily(x) ∧ SubscribeToAMCAList(x) → EligibleToWatchMovies(x, 3))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧ SubscribedTo(x, aMCAList)) →  EligibleForThreeFreeMoviesEveryWeekWithoutAdditionalFees(x))",
+        "bleu": 0.18806669624621017,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1192,
+        "generated_premise": "∃x (InJamesFamily(x) ∧ GoToCinemas(x))",
+        "gold_premise": "∃x ∃y (Customer(x) ∧ In(x, jameSFamily) ∧ GoToEveryWeek(x, cinema) ∧ (¬(x=y)) ∧ Customer(y) ∧ In(y, jameSFamily) ∧ GoToEveryWeek(y, cinema))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1192,
+        "generated_premise": "∀x (InJamesFamily(x) → (SubscribeToAMCAList(x) ∨ SubscribeToHBO(x)))",
+        "gold_premise": "∀x (Customer(x) ∧ In(x, jameSFamily) ∧ (SubscribedTo(x, aMCAList) ∨ SubscribedTo(x, hBO)))",
+        "bleu": 0.0,
+        "LE": 0.3125
+    },
+    {
+        "example_id": 1192,
+        "generated_premise": "∀x (InJamesFamily(x) ∧ PreferTVSeries(x) → ¬WatchTVSeriesInCinemas(x))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧ Prefer(x, tVSeries)) → (¬WatchIn(x, tV, cinema)))",
+        "bleu": 0.10669471579100284,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1192,
+        "generated_premise": "∀x (InJamesFamily(x) ∧ SubscribeToHBO(x) → PreferTVSeries(x))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧  SubscribedTo(x, hBO)) → Prefer(x, tVSeries))",
+        "bleu": 0.13234985289833043,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1192,
+        "generated_premise": "InJamesFamily(lily)",
+        "gold_premise": "Customer(lily) ∧ In(lily, jameSFamily ∧ WatchIn(lily, tV, cinema)",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1192,
+        "generated_conclusion": "GoToCinemas(lily)",
+        "gold_conclusion": "GoToEveryWeek(lily, cinema)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 1193,
+        "generated_premise": "N/A",
+        "gold_premise": "N/A",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1193,
+        "generated_conclusion": "N/A",
+        "gold_conclusion": "N/A",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.0
+    },
+    {
+        "example_id": 1194,
+        "generated_premise": "∀x (InJamesFamily(x) ∧ SubscribeToAMCAList(x) → EligibleToWatch3Movies(x, week))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧ SubscribedTo(x, aMCAList)) →  EligibleForThreeFreeMoviesEveryWeekWithoutAdditionalFees(x))",
+        "bleu": 0.18806669624621017,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1194,
+        "generated_premise": "∃x (InJamesFamily(x) ∧ GoesToCinema(x, week))",
+        "gold_premise": "∃x ∃y (Customer(x) ∧ In(x, jameSFamily) ∧ GoToEveryWeek(x, cinema) ∧ (¬(x=y)) ∧ Customer(y) ∧ In(y, jameSFamily) ∧ GoToEveryWeek(y, cinema))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1194,
+        "generated_premise": "∀x (InJamesFamily(x) → SubscribeToAMCAList(x) ∨ SubscribeToHBO(x))",
+        "gold_premise": "∀x (Customer(x) ∧ In(x, jameSFamily) ∧ (SubscribedTo(x, aMCAList) ∨ SubscribedTo(x, hBO)))",
+        "bleu": 0.0,
+        "LE": 0.3125
+    },
+    {
+        "example_id": 1194,
+        "generated_premise": "∀x (InJamesFamily(x) ∧ PreferTVSeries(x) → ¬WatchTVSeriesInCinema(x))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧ Prefer(x, tVSeries)) → (¬WatchIn(x, tV, cinema)))",
+        "bleu": 0.10669471579100284,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1194,
+        "generated_premise": "∀x (InJamesFamily(x) ∧ SubscribeToHBO(x) → PreferTVSeries(x))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧  SubscribedTo(x, hBO)) → Prefer(x, tVSeries))",
+        "bleu": 0.13234985289833043,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1194,
+        "generated_premise": "InJamesFamily(lily)",
+        "gold_premise": "Customer(lily) ∧ In(lily, jameSFamily ∧ WatchIn(lily, tV, cinema)",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1194,
+        "generated_conclusion": "GoesToCinema(lily, week) ∨ EligibleToWatch3Movies(lily, week)",
+        "gold_conclusion": "GoToEveryWeek(lily, cinema) ∨ EligibleForThreeFreeMoviesWithoutAdditionalFees(lily)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 1195,
+        "generated_premise": "∀x (FamilyOf(x, james) ∧ SubscribeTo(x, AMC A-List) → EligibleToWatch(x, 3, week, free))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧ SubscribedTo(x, aMCAList)) →  EligibleForThreeFreeMoviesEveryWeekWithoutAdditionalFees(x))",
+        "bleu": 0.0,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1195,
+        "generated_premise": "∃x (FamilyOf(x, james) ∧ GoToCinemas(x, week))",
+        "gold_premise": "∃x ∃y (Customer(x) ∧ In(x, jameSFamily) ∧ GoToEveryWeek(x, cinema) ∧ (¬(x=y)) ∧ Customer(y) ∧ In(y, jameSFamily) ∧ GoToEveryWeek(y, cinema))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1195,
+        "generated_premise": "∀x (FamilyOf(x, james) → (SubscribeTo(x, AMC A-List) ∨ SubscribeTo(x, HBO service))",
+        "gold_premise": "∀x (Customer(x) ∧ In(x, jameSFamily) ∧ (SubscribedTo(x, aMCAList) ∨ SubscribedTo(x, hBO)))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1195,
+        "generated_premise": "∀x (FamilyOf(x, james) ∧ PreferTV(x) → ¬WatchTVSeriesInCinemas(x))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧ Prefer(x, tVSeries)) → (¬WatchIn(x, tV, cinema)))",
+        "bleu": 0.0,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1195,
+        "generated_premise": "∀x (FamilyOf(x, james) ∧ SubscribeTo(x, HBO service) → PreferTV(x))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧  SubscribedTo(x, hBO)) → Prefer(x, tVSeries))",
+        "bleu": 0.0,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1195,
+        "generated_premise": "∀x (FamilyOf(x, james) ∧ FamilyOf(x, james) ∧ GoToCinemas(x, week) ∧ SubscribeTo(x, HBO service) → PreferTV(x))",
+        "gold_premise": "Customer(lily) ∧ In(lily, jameSFamily ∧ WatchIn(lily, tV, cinema)",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1195,
+        "generated_conclusion": "¬(GoToCinemas(lily, week) ∧ SubscribeTo(lily, HBO service)) → (EligibleToWatch(lily, 3, week, free) ∨ PreferTV(lily))",
+        "gold_conclusion": "(GoToEveryWeek(lily, cinema) ∧ SubscribedTo(lily, hBO)) → (EligibleForThreeFreeMoviesEveryWeek(lily) ⊕ Prefer(lily, tVSeries))",
+        "bleu_conclusion": 0.19586297287394794,
+        "LE_conclusion": 0.6875
+    },
+    {
+        "example_id": 1196,
+        "generated_premise": "∀x (FamilyMember(x, james) ∧ SubscribeToAMCAList(x) → EligibleForFreeMovies(x, 3))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧ SubscribedTo(x, aMCAList)) →  EligibleForThreeFreeMoviesEveryWeekWithoutAdditionalFees(x))",
+        "bleu": 0.0,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1196,
+        "generated_premise": "∃x (FamilyMember(x, james) ∧ GoesToCinemas(x))",
+        "gold_premise": "∃x ∃y (Customer(x) ∧ In(x, jameSFamily) ∧ GoToEveryWeek(x, cinema) ∧ (¬(x=y)) ∧ Customer(y) ∧ In(y, jameSFamily) ∧ GoToEveryWeek(y, cinema))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1196,
+        "generated_premise": "∀x (FamilyMember(x, james) → (SubscribeToAMCAList(x) ∨ SubscribeToHBOService(x)))",
+        "gold_premise": "∀x (Customer(x) ∧ In(x, jameSFamily) ∧ (SubscribedTo(x, aMCAList) ∨ SubscribedTo(x, hBO)))",
+        "bleu": 0.0,
+        "LE": 0.3125
+    },
+    {
+        "example_id": 1196,
+        "generated_premise": "∀x (FamilyMember(x, james) ∧ SubscribeToAMCAList(x) → ¬PrefersTVSeries(x))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧ Prefer(x, tVSeries)) → (¬WatchIn(x, tV, cinema)))",
+        "bleu": 0.0,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1196,
+        "generated_premise": "∀x (FamilyMember(x, james) ∧ SubscribeToHBOService(x) → PrefersTVSeries(x))",
+        "gold_premise": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧  SubscribedTo(x, hBO)) → Prefer(x, tVSeries))",
+        "bleu": 0.0,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1196,
+        "generated_premise": "FamilyMember(lily, james)",
+        "gold_premise": "Customer(lily) ∧ In(lily, jameSFamily ∧ WatchIn(lily, tV, cinema)",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1196,
+        "generated_conclusion": "(GoestoCinemas(lily) ∧ PrefersTVSeries(lily)) → EligibleForFreeMovies(lily, 3))",
+        "gold_conclusion": "(EligibleForThreeFreeMoviesEveryWeekWithoutAdditionalFees(lily) ∧ WatchIn(lily, tV, cinema)) → (GoToEveryWeek(lily, cinema) ∧ Prefer(lily, tVSeries))",
+        "bleu_conclusion": 0.14677714494345645,
+        "LE_conclusion": 0.0
+    },
+    {
+        "example_id": 550,
+        "generated_premise": "∀x ∀y (Team(x) ∧ Team(y) ∧ LaLiga(x) ∧ LaLiga(y) → (HasMorePoints(x, y) → RanksHigher(x, y)))",
+        "gold_premise": "∀x ∀y (LaLigaSoccerTeam(x) ∧ LaLigaSoccerTeam(y) ∧ MorePoints(x, y) → RankHigherThan(x, y))",
+        "bleu": 0.41912378062329975,
+        "LE": 0.953125
+    },
+    {
+        "example_id": 550,
+        "generated_premise": "∀x ∀y (Team(x) ∧ Team(y) ∧ LaLiga(x) ∧ LaLiga(y) ∧ ¬HasMorePoints(x, y) ∧ ¬HasMorePoints(y, x) → PointsTied(x, y) → RanksHigher(x, y))",
+        "gold_premise": "∀x ∀y (LaLigaSoccerTeam(x) ∧ LaLigaSoccerTeam(y) ∧ ¬MorePoints(x, y) ∧ ¬MorePoints(y, x) ∧ MorePointsInGameBetween(x, y) →  RankHigherThan(x, y))",
+        "bleu": 0.504535771664824,
+        "LE": 0.51953125
+    },
+    {
+        "example_id": 550,
+        "generated_premise": "Team(realMadrid) ∧ Team(barcelona) ∧ LaLiga(realMadrid) ∧ LaLiga(barcelona)",
+        "gold_premise": "LaLigaSoccerTeam(realMadrid) ∧ LaLigaSoccerTeam(barcelona)",
+        "bleu": 0.183294136480062,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 550,
+        "generated_premise": "HasMorePoints(realMadrid, barcelona)",
+        "gold_premise": "MorePoints(realMadrid, barcelona)",
+        "bleu": 0.7598356856515925,
+        "LE": 1.0
+    },
+    {
+        "example_id": 550,
+        "generated_premise": "¬(HasMorePoints(realMadrid, barcelona) ⊕ HasMorePoints(barcelona, realMadrid))",
+        "gold_premise": "¬MorePointsInGameBetween(realMadrid, barcelona) ∧ ¬MorePointsInGameBetween(barcelona, realMadrid)",
+        "bleu": 0.46892438882117243,
+        "LE": 0.75
+    },
+    {
+        "example_id": 550,
+        "generated_conclusion": "RanksHigher(realMadrid, barcelona)",
+        "gold_conclusion": "RankHigherThan(realMadrid, barcelona)",
+        "bleu_conclusion": 0.7598356856515925,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 551,
+        "generated_premise": "∀x ∀y (LaLigaTeam(x) ∧ LaLigaTeam(y) → (Points(x) > Points(y) → RanksHigher(x, y)))",
+        "gold_premise": "∀x ∀y (LaLigaSoccerTeam(x) ∧ LaLigaSoccerTeam(y) ∧ MorePoints(x, y) → RankHigherThan(x, y))",
+        "bleu": 0.3902150729188432,
+        "LE": 0.0
+    },
+    {
+        "example_id": 551,
+        "generated_premise": "∀x ∀y (LaLigaTeam(x) ∧ LaLigaTeam(y) ∧ ¬(Points(x) > Points(y)) ∧ ¬(Points(y) > Points(x)) → PointsBetween(x, y) > Points(x) → RanksHigher(x, y))",
+        "gold_premise": "∀x ∀y (LaLigaSoccerTeam(x) ∧ LaLigaSoccerTeam(y) ∧ ¬MorePoints(x, y) ∧ ¬MorePoints(y, x) ∧ MorePointsInGameBetween(x, y) →  RankHigherThan(x, y))",
+        "bleu": 0.33952365235609727,
+        "LE": 0.0
+    },
+    {
+        "example_id": 551,
+        "generated_premise": "LaLigaTeam(realMadrid) ∧ LaLigaTeam(barcelona)",
+        "gold_premise": "LaLigaSoccerTeam(realMadrid) ∧ LaLigaSoccerTeam(barcelona)",
+        "bleu": 0.43167001068522526,
+        "LE": 1.0
+    },
+    {
+        "example_id": 551,
+        "generated_premise": "Points(realMadrid) > Points(barcelona)",
+        "gold_premise": "MorePoints(realMadrid, barcelona)",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 551,
+        "generated_premise": "¬(Points(realMadrid) > Points(barcelona, realMadrid)) ∧ ¬(Points(barcelona) > Points(realMadrid, barcelona))",
+        "gold_premise": "¬MorePointsInGameBetween(realMadrid, barcelona) ∧ ¬MorePointsInGameBetween(barcelona, realMadrid)",
+        "bleu": 0.2826845419324588,
+        "LE": 0.0
+    },
+    {
+        "example_id": 551,
+        "generated_conclusion": "¬RanksHigher(barcelona, realMadrid)",
+        "gold_conclusion": "RankHigherThan(barcelona, realMadrid)",
+        "bleu_conclusion": 0.6147881529512643,
+        "LE_conclusion": 0.0
+    },
+    {
+        "example_id": 249,
+        "generated_premise": "∀x (CitizenOf(x, LawtonPark) → UseZipCode(x, 98199))",
+        "gold_premise": "NeighbourhoodIn(lawtonPark, seattle)",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 249,
+        "generated_premise": "CitizenOf(tom, LawtonPark)",
+        "gold_premise": "∀x (Residentof(x, lawtonPark) → UseZipCode(x, num98199))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 249,
+        "generated_premise": "UseZipCode(daniel, 98199)",
+        "gold_premise": "ResidentOf(tom, lawtonPark)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 249,
+        "generated_conclusion": "UseZipCode(tom, 98199)",
+        "gold_conclusion": "UseZipCode(tom, num98199)",
+        "bleu_conclusion": 0.537284965911771,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 250,
+        "generated_premise": "∀x (CitizenOf(x, LawtonPark) → UseZipCode(x, 98199))",
+        "gold_premise": "NeighbourhoodIn(lawtonPark, seattle)",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 250,
+        "generated_premise": "CitizenOf(tom, LawtonPark)",
+        "gold_premise": "∀x (Residentof(x, lawtonPark) → UseZipCode(x, num98199))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 250,
+        "generated_premise": "UseZipCode(daniel, 98199)",
+        "gold_premise": "ResidentOf(tom, lawtonPark)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 250,
+        "generated_conclusion": "¬UseZipCode(tom, 98199)",
+        "gold_conclusion": "¬UseZipCode(tom, num98199)",
+        "bleu_conclusion": 0.6434588841607617,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 251,
+        "generated_premise": "CitizenOf(LawtonPark, tom)",
+        "gold_premise": "NeighbourhoodIn(lawtonPark, seattle)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 251,
+        "generated_premise": "∀x (CitizenOf(LawtonPark, x) → UsesZipCode(x, 98199))",
+        "gold_premise": "∀x (Residentof(x, lawtonPark) → UseZipCode(x, num98199))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 251,
+        "generated_premise": "UsesZipCode(daniel, 98199)",
+        "gold_premise": "ResidentOf(tom, lawtonPark)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 251,
+        "generated_conclusion": "CitizenOf(Washington, tom)",
+        "gold_conclusion": "ResidentOf(tom, washington)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 252,
+        "generated_premise": "∀x (CitizenOf(x, LawtonPark) → UsesZipCode(x, 98199))",
+        "gold_premise": "NeighbourhoodIn(lawtonPark, seattle)",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 252,
+        "generated_premise": "∀x (CitizenOf(x, LawtonPark))",
+        "gold_premise": "∀x (Residentof(x, lawtonPark) → UseZipCode(x, num98199))",
+        "bleu": 0.2792504378041133,
+        "LE": 0.75
+    },
+    {
+        "example_id": 252,
+        "generated_premise": "CitizenOf(tom, LawtonPark)",
+        "gold_premise": "ResidentOf(tom, lawtonPark)",
+        "bleu": 0.7598356856515925,
+        "LE": 1.0
+    },
+    {
+        "example_id": 252,
+        "generated_premise": "UsesZipCode(daniel, 98199)",
+        "gold_premise": "UseZipCode(daniel, num98199)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 252,
+        "generated_conclusion": "CitizenOf(daniel, LawtonPark)",
+        "gold_conclusion": "ResidentOf(daniel, lawtonPark)",
+        "bleu_conclusion": 0.7598356856515925,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 261,
+        "generated_premise": "∀x (GuiltyOfStealingGovernmentFunds(x) → SuspendedFromOffice(x))",
+        "gold_premise": "∀x ((Legislator(x) ∧ StealsFunds(x)) → Suspended(x))",
+        "bleu": 0.22087953030751448,
+        "LE": 0.875
+    },
+    {
+        "example_id": 261,
+        "generated_premise": "Legislator(Tiffany T. Alston)",
+        "gold_premise": "Legislator(tiffanyTAlston)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 261,
+        "generated_premise": "∃t (Year(t) = 2012 ∧ GuiltyOfStealingGovernmentFunds(Tiffany T. Alston))",
+        "gold_premise": "StealsFunds(tiffanyTAlston) ∧ StealsFundsInYr(tiffanyTAlston, yr2012)",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 261,
+        "generated_conclusion": "SuspendedFromOffice(Tiffany T. Alston)",
+        "gold_conclusion": "Suspended(tiffanyTAlston)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 262,
+        "generated_premise": "∀x (GuiltyOfStealingFunds(x) → SuspendedFromOffice(x))",
+        "gold_premise": "∀x ((Legislator(x) ∧ StealsFunds(x)) → Suspended(x))",
+        "bleu": 0.22087953030751448,
+        "LE": 0.875
+    },
+    {
+        "example_id": 262,
+        "generated_premise": "Legislator(TiffanyTAlston)",
+        "gold_premise": "Legislator(tiffanyTAlston)",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 262,
+        "generated_premise": "HouseOfDelegates(x, Maryland) ∧ Term(x, 2011, 2013) → Legislator(x)",
+        "gold_premise": "StealsFunds(tiffanyTAlston) ∧ StealsFundsInYr(tiffanyTAlston, yr2012)",
+        "bleu": 0.0,
+        "LE": 0.375
+    },
+    {
+        "example_id": 262,
+        "generated_conclusion": "¬SuspendedFromOffice(TiffanyTAlston)",
+        "gold_conclusion": "¬Suspended(tiffanyTAlston)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 263,
+        "generated_premise": "∀x (GuiltyOfStealingGovernmentFunds(x) → SuspendedFromOffice(x))",
+        "gold_premise": "∀x ((Legislator(x) ∧ StealsFunds(x)) → Suspended(x))",
+        "bleu": 0.22087953030751448,
+        "LE": 0.875
+    },
+    {
+        "example_id": 263,
+        "generated_premise": "Legislator(TiffanyTAlston)",
+        "gold_premise": "Legislator(tiffanyTAlston)",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 263,
+        "generated_premise": "∃t (Year(t) = 2012 ∧ GuiltyOfStealingGovernmentFunds(TiffanyTAlston) ∧ t = 2012)",
+        "gold_premise": "StealsFunds(tiffanyTAlston) ∧ StealsFundsInYr(tiffanyTAlston, yr2012)",
+        "bleu": 0.14025775160081475,
+        "LE": 0.0
+    },
+    {
+        "example_id": 263,
+        "generated_conclusion": "SuspendedFromOffice(TiffanyTAlston)",
+        "gold_conclusion": "Prison(tiffanyTAlston)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 491,
+        "generated_premise": "∃x (Fish(x) ∧ Sting(x, people))",
+        "gold_premise": "∃x ∃y (Fish(x) → Sting(x,y))",
+        "bleu": 0.4210438963586171,
+        "LE": 0.5
+    },
+    {
+        "example_id": 491,
+        "generated_premise": "Fish(stonefish)",
+        "gold_premise": "Fish(stonefish)",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 491,
+        "generated_premise": "Sting(stonefish, people)",
+        "gold_premise": "∀x (SteppedOnBy(stonefish, x) → Sting(stonefish, x))",
+        "bleu": 0.08590098392241097,
+        "LE": 0.75
+    },
+    {
+        "example_id": 491,
+        "generated_premise": "∃x (Sting(x, y) ∧ ¬Treated(y) → Death(y))",
+        "gold_premise": "∀x (Sting(stonefish, x) ∧ ¬Treated(x) → CauseDeathTo(stonefish, x))",
+        "bleu": 0.3268681327303742,
+        "LE": 1.0
+    },
+    {
+        "example_id": 491,
+        "generated_premise": "∃x (Treats(x, y) ∧ (x = heat ∨ x = antivenom))",
+        "gold_premise": "∀x (Sting(stonefish, x) ∧ (ApplyHeatTo(x) ∨ UseAntivenomOn(x)) → Treated(x))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 491,
+        "generated_conclusion": "(Sting(stonefish, y) ∧ ¬Treat(y, antivenom)) → Death(y)",
+        "gold_conclusion": "∀x (Sting(stonefish, x) ∧ ¬UseAntivenomOn(x) → CauseDeathTo(stonefish, x))",
+        "bleu_conclusion": 0.25994865812720963,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 492,
+        "generated_premise": "∃x (Fish(x) ∧ Stings(x, people))",
+        "gold_premise": "∃x ∃y (Fish(x) → Sting(x,y))",
+        "bleu": 0.34245097009375325,
+        "LE": 0.5
+    },
+    {
+        "example_id": 492,
+        "generated_premise": "Fish(stonefish)",
+        "gold_premise": "Fish(stonefish)",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 492,
+        "generated_premise": "Stings(stonefish, people)",
+        "gold_premise": "∀x (SteppedOnBy(stonefish, x) → Sting(stonefish, x))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 492,
+        "generated_premise": "∃x (Stings(x, people) ∧ ¬Treated(x) → CanCauseDeath(x))",
+        "gold_premise": "∀x (Sting(stonefish, x) ∧ ¬Treated(x) → CauseDeathTo(stonefish, x))",
+        "bleu": 0.41015594715462383,
+        "LE": 1.0
+    },
+    {
+        "example_id": 492,
+        "generated_premise": "Treat(stonefish, heat)",
+        "gold_premise": "∀x (Sting(stonefish, x) ∧ (ApplyHeatTo(x) ∨ UseAntivenomOn(x)) → Treated(x))",
+        "bleu": 0.0,
+        "LE": 0.6875
+    },
+    {
+        "example_id": 492,
+        "generated_conclusion": "∃x (Fish(x) ∧ Stings(x, people) ∧ ¬Treated(x) → CanCauseDeath(x))",
+        "gold_conclusion": "∃x ∃y (Fish(x) ∧ Sting(x, y) ∧ ¬Treated(y) → CauseDeathTo(x, y))",
+        "bleu_conclusion": 0.375505098867903,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 493,
+        "generated_premise": "∃x (Fish(x) ∧ StingsPeople(x))",
+        "gold_premise": "∃x ∃y (Fish(x) → Sting(x,y))",
+        "bleu": 0.29778450901067033,
+        "LE": 0.5
+    },
+    {
+        "example_id": 493,
+        "generated_premise": "Fish(stonefish)",
+        "gold_premise": "Fish(stonefish)",
+        "bleu": 1.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 493,
+        "generated_premise": "Stings(stonefish, step)",
+        "gold_premise": "∀x (SteppedOnBy(stonefish, x) → Sting(stonefish, x))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 493,
+        "generated_premise": "∀x ∀y (Stings(x, y) ∧ ¬Treated(y) → CausesDeath(x, y))",
+        "gold_premise": "∀x (Sting(stonefish, x) ∧ ¬Treated(x) → CauseDeathTo(stonefish, x))",
+        "bleu": 0.23096862760324494,
+        "LE": 1.0
+    },
+    {
+        "example_id": 493,
+        "generated_premise": "∀x ∀y (Treats(x, y) → (ApplyHeat(x, y) ∨ UseAntivenom(x, y)))",
+        "gold_premise": "∀x (Sting(stonefish, x) ∧ (ApplyHeatTo(x) ∨ UseAntivenomOn(x)) → Treated(x))",
+        "bleu": 0.0,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 493,
+        "generated_conclusion": "(Stings(stonefish, step) ∧ ApplyHeat(heat, step)) → CausesDeath(stonefish, step)",
+        "gold_conclusion": "∀x (SteppedOnBy(stonefish, x) ∧ ApplyHeatTo(x)  → CauseDeathTo(stonefish, x))",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 1173,
+        "generated_premise": "∃x (MadeBy(x, LG) ∧ HasTypeCPort(x))",
+        "gold_premise": "∃x (Monitor(x) ∧ ProducedBy(x, lG) ∧ Have(x, typeCPort) ∧ (¬(x=y)) ∧ Monitor(y) ∧ ProducedBy(y, lG) ∧ Have(y, typeCPort))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1173,
+        "generated_premise": "∀x (HasTypeCPort(x) → ¬MadeBefore2010(x))",
+        "gold_premise": "∀x (Have(x, typeCPort) → ¬ProducedBefore(x, yr2010))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1173,
+        "generated_premise": "∀x (InLibrary(x) → MadeBefore2010(x))",
+        "gold_premise": "∀x ((Monitor(x) ∧ In(x, library)) → ProducedBefore(x, yr2010))",
+        "bleu": 0.0,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1173,
+        "generated_premise": "InLibrary(L-2021) ⊕ HasTypeCPort(L-2021)",
+        "gold_premise": "Monitor(l-2021) ∧ (In(l-2021, library) ⊕ Have(l-2021, typeCPort))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 1173,
+        "generated_premise": "(InLibrary(L-2021) ∧ MadeBy(L-2021, LG)) ⊕ ¬(InLibrary(L-2021) ∧ MadeBy(L-2021, LG))",
+        "gold_premise": "¬(ProducedBefore(l-2021, yr2010) ⊕ ProducedBy(l-2021, lG))",
+        "bleu": 0.24446151121745052,
+        "LE": 0.5
+    },
+    {
+        "example_id": 1173,
+        "generated_conclusion": "InLibrary(L-2021)",
+        "gold_conclusion": "In(l-2021, library)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 1174,
+        "generated_premise": "∃x (MadeBy(x, LG) ∧ HasTypeCPort(x))",
+        "gold_premise": "∃x (Monitor(x) ∧ ProducedBy(x, lG) ∧ Have(x, typeCPort) ∧ (¬(x=y)) ∧ Monitor(y) ∧ ProducedBy(y, lG) ∧ Have(y, typeCPort))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1174,
+        "generated_premise": "∀x ((HasTypeCPort(x) → ¬MadeBefore2010(x))",
+        "gold_premise": "∀x (Have(x, typeCPort) → ¬ProducedBefore(x, yr2010))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1174,
+        "generated_premise": "∀x (InLibrary(x) → MadeBefore2010(x))",
+        "gold_premise": "∀x ((Monitor(x) ∧ In(x, library)) → ProducedBefore(x, yr2010))",
+        "bleu": 0.0,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1174,
+        "generated_premise": "(UsedInLibrary(L-2021) ∨ HasTypeCPort(L-2021))",
+        "gold_premise": "Monitor(l-2021) ∧ (In(l-2021, library) ⊕ Have(l-2021, typeCPort))",
+        "bleu": 0.0,
+        "LE": 0.5
+    },
+    {
+        "example_id": 1174,
+        "generated_premise": "(ProducedBefore2010(L-2021) ∧ MadeBy(L-2021, LG)) ⊕ ¬(ProducedBefore2010(L-2021) ∧ MadeBy(L-2021, LG))",
+        "gold_premise": "¬(ProducedBefore(l-2021, yr2010) ⊕ ProducedBy(l-2021, lG))",
+        "bleu": 0.24446151121745052,
+        "LE": 0.5
+    },
+    {
+        "example_id": 1174,
+        "generated_conclusion": "InLibrary(L-2021) ∨ MadeBy(L-2021, LG)",
+        "gold_conclusion": "In(l-2021, library) ⊕ ProducedBy(l-2021, lG)",
+        "bleu_conclusion": 0.34786351577524227,
+        "LE_conclusion": 0.75
+    },
+    {
+        "example_id": 1175,
+        "generated_premise": "∃x (MadeBy(x, LG) ∧ HasPort(x, type-c))",
+        "gold_premise": "∃x (Monitor(x) ∧ ProducedBy(x, lG) ∧ Have(x, typeCPort) ∧ (¬(x=y)) ∧ Monitor(y) ∧ ProducedBy(y, lG) ∧ Have(y, typeCPort))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1175,
+        "generated_premise": "∀x (HasPort(x, type-c) → ¬MadeBefore(x, 2010))",
+        "gold_premise": "∀x (Have(x, typeCPort) → ¬ProducedBefore(x, yr2010))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1175,
+        "generated_premise": "∀x (InLibrary(x) → MadeBefore(x, 2010))",
+        "gold_premise": "∀x ((Monitor(x) ∧ In(x, library)) → ProducedBefore(x, yr2010))",
+        "bleu": 0.0,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1175,
+        "generated_premise": "L-2021 (UsedInLibrary ∨ HasPort(L-2021, type-c))",
+        "gold_premise": "Monitor(l-2021) ∧ (In(l-2021, library) ⊕ Have(l-2021, typeCPort))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1175,
+        "generated_premise": "L-2021 (MadeBefore(L-2021, 2010) ∧ MadeBy(L-2021, LG)) ⊕ ¬(MadeBefore(L-2021, 2010) ∧ MadeBy(L-2021, LG))",
+        "gold_premise": "¬(ProducedBefore(l-2021, yr2010) ⊕ ProducedBy(l-2021, lG))",
+        "bleu": 0.2056044752971819,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1175,
+        "generated_conclusion": "HasPort(L-2021, type-c) ∨ MadeBy(L-2021, LG)",
+        "gold_conclusion": "Have(l-2021, typeCPort) ⊕ ProducedBy(l-2021, lG)",
+        "bleu_conclusion": 0.39832871551569504,
+        "LE_conclusion": 0.75
+    },
+    {
+        "example_id": 1176,
+        "generated_premise": "∃x (MadeBy(x, LG) ∧ HasTypeCPort(x))",
+        "gold_premise": "∃x (Monitor(x) ∧ ProducedBy(x, lG) ∧ Have(x, typeCPort) ∧ (¬(x=y)) ∧ Monitor(y) ∧ ProducedBy(y, lG) ∧ Have(y, typeCPort))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1176,
+        "generated_premise": "∀x (HasTypeCPort(x) → ¬MadeBefore2010(x))",
+        "gold_premise": "∀x (Have(x, typeCPort) → ¬ProducedBefore(x, yr2010))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1176,
+        "generated_premise": "∀x (InLibrary(x) → MadeBefore2010(x))",
+        "gold_premise": "∀x ((Monitor(x) ∧ In(x, library)) → ProducedBefore(x, yr2010))",
+        "bleu": 0.0,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1176,
+        "generated_premise": "∃x (UsedInLibrary(x) ∨ HasTypeCPort(x))",
+        "gold_premise": "Monitor(l-2021) ∧ (In(l-2021, library) ⊕ Have(l-2021, typeCPort))",
+        "bleu": 0.0,
+        "LE": 0.5
+    },
+    {
+        "example_id": 1176,
+        "generated_premise": "∃x (MadeBefore2010(x) ∧ MadeBy(x, LG)) ⊕ (¬MadeBefore2010(x) ∧ ¬MadeBy(x, LG))",
+        "gold_premise": "¬(ProducedBefore(l-2021, yr2010) ⊕ ProducedBy(l-2021, lG))",
+        "bleu": 0.10389889377420038,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1176,
+        "generated_conclusion": "(InLibrary(x) ∧ MadeBy(x, LG)) ⊕ (¬InLibrary(x) ∧ ¬MadeBy(x, LG)) → ¬(HasTypeCPort(x) ∨ MadeBy(x, LG))",
+        "gold_conclusion": "¬(In(l-2021, library) ⊕ ProducedBy(l-2021, lG)) → (¬Have(x, typeCPort) ∧ ¬ProducedBy(x, lG))",
+        "bleu_conclusion": 0.2726337118792593,
+        "LE_conclusion": 0.875
+    },
+    {
+        "example_id": 1177,
+        "generated_premise": "∃x (MadeBy(x, LG) ∧ HasTypeCPort(x))",
+        "gold_premise": "∃x (Monitor(x) ∧ ProducedBy(x, lG) ∧ Have(x, typeCPort) ∧ (¬(x=y)) ∧ Monitor(y) ∧ ProducedBy(y, lG) ∧ Have(y, typeCPort))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1177,
+        "generated_premise": "∀x (HasTypeCPort(x) → ¬MadeBefore2010(x))",
+        "gold_premise": "∀x (Have(x, typeCPort) → ¬ProducedBefore(x, yr2010))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1177,
+        "generated_premise": "∀x (MadeInLibrary(x) → MadeBefore2010(x))",
+        "gold_premise": "∀x ((Monitor(x) ∧ In(x, library)) → ProducedBefore(x, yr2010))",
+        "bleu": 0.0,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1177,
+        "generated_premise": "∃x (UsedInLibrary(x) ∨ HasTypeCPort(x))",
+        "gold_premise": "Monitor(l-2021) ∧ (In(l-2021, library) ⊕ Have(l-2021, typeCPort))",
+        "bleu": 0.0,
+        "LE": 0.5
+    },
+    {
+        "example_id": 1177,
+        "generated_premise": "∃x (MadeBy(x, LG) ⊕ MadeBefore2010(x))",
+        "gold_premise": "¬(ProducedBefore(l-2021, yr2010) ⊕ ProducedBy(l-2021, lG))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 1177,
+        "generated_conclusion": "(MadeBy(L-2021, LG) ∧ MadeBefore2010(L-2021)) ⊕ ¬(MadeBy(L-2021, LG) ∨ MadeBefore2010(L-2021)) → (UsedInLibrary(L-2021) ∨ MadeBy(L-2021, LG))",
+        "gold_conclusion": "¬(ProducedBefore(l-2021, year2010) ⊕ ProducedBy(l-2021, lG)) → (In(l-2021, library) ⊕ ProducedBy(l-2021, lG))",
+        "bleu_conclusion": 0.3089679398026539,
+        "LE_conclusion": 0.875
+    },
+    {
+        "example_id": 1005,
+        "generated_premise": "∀x (OutsideSolarSystem(x) ∨ InSolarSystem(x))",
+        "gold_premise": "∀x (Outside(x, solarSystem) ⊕ In(x, solarSystem))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 1005,
+        "generated_premise": "∀x (OutsideSolarSystem(x) → ¬IsStarOf(x, Sun))",
+        "gold_premise": "∀x (Outside(x, solarSystem) → ¬SunAs(x, star))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1005,
+        "generated_premise": "∀x (InSolarSystem(x) → GravitationallyBoundBy(x, Sun))",
+        "gold_premise": "∀x (In(x, solarSystem) → BoundBy(x, sun, gravitationally))",
+        "bleu": 0.23927141250362965,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1005,
+        "generated_premise": "∀x (GravitationallyBoundBy(x, Sun) → ¬IsRoguePlanet(x))",
+        "gold_premise": "∀x (Planet(x) ∧ BoundBy(x, sun, gravitationally) → ¬(Planet(x) ∧ Rogue(x)))",
+        "bleu": 0.18460735136289305,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1005,
+        "generated_premise": "∀x (IsRoguePlanet(x) → IsOrphanPlanet(x))",
+        "gold_premise": "∀x (Planet(x) ∧ Orphan(x) → Planet(x) ∧ Rogue(x))",
+        "bleu": 0.22050511532241882,
+        "LE": 0.75
+    },
+    {
+        "example_id": 1005,
+        "generated_premise": "(¬(IsRoguePlanet(PSO J318.5−22) ∧ GravitationallyBoundBy(PSO J318.5−22, Sun)) → IsRoguePlanet(PSO J318.5−22))",
+        "gold_premise": "¬(Planet(pSOJ318.5-22) ∧ Rogue(pSOJ318.5-22) ∧ BoundBy(pSOJ318.5-22, sun, gravitationally)) → (Planet(pSOJ318.5-22) ∧ Rogue(pSOJ318.5-22))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 1005,
+        "generated_conclusion": "IsOrphanPlanet(PSO J318.5−22)",
+        "gold_conclusion": "Planet(pSOJ318.5-22) ∧ Orphan(pSOJ318.5-22)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.75
+    },
+    {
+        "example_id": 1006,
+        "generated_premise": "∀x (OutsideSolarSystem(x) ∨ InSolarSystem(x))",
+        "gold_premise": "∀x (Outside(x, solarSystem) ⊕ In(x, solarSystem))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 1006,
+        "generated_premise": "∀x (OutsideSolarSystem(x) → ¬HasSunAsStar(x))",
+        "gold_premise": "∀x (Outside(x, solarSystem) → ¬SunAs(x, star))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1006,
+        "generated_premise": "∀x (InSolarSystem(x) → GravitationallyBoundBySun(x))",
+        "gold_premise": "∀x (In(x, solarSystem) → BoundBy(x, sun, gravitationally))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1006,
+        "generated_premise": "∀x (GravitationallyBoundBySun(x) → ¬RoguePlanet(x))",
+        "gold_premise": "∀x (Planet(x) ∧ BoundBy(x, sun, gravitationally) → ¬(Planet(x) ∧ Rogue(x)))",
+        "bleu": 0.12348111984085437,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1006,
+        "generated_premise": "∀x (OrphanPlanet(x) → RoguePlanet(x))",
+        "gold_premise": "∀x (Planet(x) ∧ Orphan(x) → Planet(x) ∧ Rogue(x))",
+        "bleu": 0.22050511532241882,
+        "LE": 0.75
+    },
+    {
+        "example_id": 1006,
+        "generated_premise": "∀x (¬(RoguePlanet(x) ∧ GravitationallyBoundBySun(x)) → RoguePlanet(x))",
+        "gold_premise": "¬(Planet(pSOJ318.5-22) ∧ Rogue(pSOJ318.5-22) ∧ BoundBy(pSOJ318.5-22, sun, gravitationally)) → (Planet(pSOJ318.5-22) ∧ Rogue(pSOJ318.5-22))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 1006,
+        "generated_conclusion": "OrphanPlanet(PSO J318.5−22) ∨ ¬HasSunAsStar(PSO J318.5−22)",
+        "gold_conclusion": "(Planet(pSOJ318.5-22) ∧ Orphan(pSOJ318.5-22)) ∨ ¬SunAs(pSOJ318.5-22, star)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.875
+    },
+    {
+        "example_id": 1007,
+        "generated_premise": "∀x (OutsideSolarSystem(x) ∨ InSolarSystem(x))",
+        "gold_premise": "∀x (Outside(x, solarSystem) ⊕ In(x, solarSystem))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 1007,
+        "generated_premise": "∀x (OutsideSolarSystem(x) → ¬HasSunAsStar(x))",
+        "gold_premise": "∀x (Outside(x, solarSystem) → ¬SunAs(x, star))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1007,
+        "generated_premise": "∀x (InSolarSystem(x) → GravitationallyBoundBySun(x))",
+        "gold_premise": "∀x (In(x, solarSystem) → BoundBy(x, sun, gravitationally))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 1007,
+        "generated_premise": "¬(GravitationallyBoundBySun(x) ∧ RoguePlanet(x))",
+        "gold_premise": "∀x (Planet(x) ∧ BoundBy(x, sun, gravitationally) → ¬(Planet(x) ∧ Rogue(x)))",
+        "bleu": 0.10396835527990972,
+        "LE": 0.875
+    },
+    {
+        "example_id": 1007,
+        "generated_premise": "∀x (OrphanPlanet(x) → RoguePlanet(x))",
+        "gold_premise": "∀x (Planet(x) ∧ Orphan(x) → Planet(x) ∧ Rogue(x))",
+        "bleu": 0.22050511532241882,
+        "LE": 0.75
+    },
+    {
+        "example_id": 1007,
+        "generated_premise": "(¬(RoguePlanet(pso_j318_5_−22) ∧ GravitationallyBoundBySun(pso_j318_5_−22)) → RoguePlanet(pso_j318_5_−22))",
+        "gold_premise": "¬(Planet(pSOJ318.5-22) ∧ Rogue(pSOJ318.5-22) ∧ BoundBy(pSOJ318.5-22, sun, gravitationally)) → (Planet(pSOJ318.5-22) ∧ Rogue(pSOJ318.5-22))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 1007,
+        "generated_conclusion": "(OrphanPlanet(pso_j318_5_−22) ⊕ ¬HasSunAsStar(pso_j318_5_−22)) → (OrphanPlanet(pso_j318_5_−22) ⊕ ¬HasSunAsStar(pso_j318_5_−22)))",
+        "gold_conclusion": "(Planet(pSOJ318.5-22) ∧ Orphan(pSOJ318.5-22)) ∨ ¬SunAs(pSOJ318.5-22, star) → (¬(Planet(pSOJ318.5-22) ∧ Orphan(pSOJ318.5-22)) ∧ ¬SunAs(pSOJ318.5-22, star))",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.0
+    },
+    {
+        "example_id": 518,
+        "generated_premise": "∃x (DoingProject(x, sam) ∧ Project(x, C++, y))",
+        "gold_premise": "∃x (Project(x) ∧ Do(sam, x))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 518,
+        "generated_premise": "∃x (DoingProject(x, sam) ∧ Project(x, Python, y)) ∨ (DoingProject(x, sam) ∧ ¬Project(x, Python, y))",
+        "gold_premise": "∀x (Project(x) → (WrittenIn(x, cplusplus) ⊕ WrittenIn(x, python)))",
+        "bleu": 0.14198555313017172,
+        "LE": 0.5
+    },
+    {
+        "example_id": 518,
+        "generated_premise": "∀x (DoingProject(x, sam) ∧ Project(x, Python, y) → ¬UsesMac(x))",
+        "gold_premise": "∀x (Project(x) ∧ WrittenIn(x, python) ∧ Do(sam, x) → ¬Use(sam, mac))",
+        "bleu": 0.22004142871172133,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 518,
+        "generated_premise": "UsesMac(sam)",
+        "gold_premise": "Use(sam, mac)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 518,
+        "generated_premise": "∀x (DoingProject(x, sam) ∧ UsesMac(x) → PlaysSong(x))",
+        "gold_premise": "∃x (Use(sam, mac) ∧ Song(x) → Play(sam, x))",
+        "bleu": 0.20642958262741706,
+        "LE": 1.0
+    },
+    {
+        "example_id": 518,
+        "generated_premise": "∀x (DoingProject(x, sam) ∧ PlaysSong(x) → ¬Title(x, \"Perfect\"))",
+        "gold_premise": "∀x (Song(x) ∧ Play(sam, x) → Titled(x, perfect))",
+        "bleu": 0.0,
+        "LE": 0.75
+    },
+    {
+        "example_id": 518,
+        "generated_conclusion": "∃x (DoingProject(x, sam) ∧ ¬Project(x, Python, y))",
+        "gold_conclusion": "∀x (Project(x) ∧ Do(sam, x) ∧ WrittenIn(x, cplusplus))",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.625
+    },
+    {
+        "example_id": 519,
+        "generated_premise": "∃x (DoingProject(x, sam) ∧ WrittenIn(x, C++, Python))",
+        "gold_premise": "∃x (Project(x) ∧ Do(sam, x))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 519,
+        "generated_premise": "∃x (DoingProject(x, sam) ∧ WrittenIn(x, Python))",
+        "gold_premise": "∀x (Project(x) → (WrittenIn(x, cplusplus) ⊕ WrittenIn(x, python)))",
+        "bleu": 0.3119428865530039,
+        "LE": 0.25
+    },
+    {
+        "example_id": 519,
+        "generated_premise": "¬(DoingProject(x, sam) ∧ WrittenIn(x, Python) → Uses(x, Mac))",
+        "gold_premise": "∀x (Project(x) ∧ WrittenIn(x, python) ∧ Do(sam, x) → ¬Use(sam, mac))",
+        "bleu": 0.36027482117191484,
+        "LE": 0.1875
+    },
+    {
+        "example_id": 519,
+        "generated_premise": "Uses(x, Mac)",
+        "gold_premise": "Use(sam, mac)",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 519,
+        "generated_premise": "∃x (DoingProject(x, sam) ∧ Uses(x, Mac) → PlaysSong(x, y))",
+        "gold_premise": "∃x (Use(sam, mac) ∧ Song(x) → Play(sam, x))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 519,
+        "generated_premise": "∀x (PlaysSong(x, y) → ¬Titled(y, \"Perfect\") ∨ PlaysSong(x, \"Perfect\"))",
+        "gold_premise": "∀x (Song(x) ∧ Play(sam, x) → Titled(x, perfect))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 519,
+        "generated_conclusion": "Titled(PlaysSong(Uses(DoingProject(sam,?), Mac), \"Perfect\"), \"Perfect\")",
+        "gold_conclusion": "∀x (Song(x) ∧ Play(sam, x) ∧ Titled(x, perfect))",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.0
+    },
+    {
+        "example_id": 520,
+        "generated_premise": "∃x (DoingProject(sam, x))",
+        "gold_premise": "∃x (Project(x) ∧ Do(sam, x))",
+        "bleu": 0.399119619653364,
+        "LE": 0.75
+    },
+    {
+        "example_id": 520,
+        "generated_premise": "∃x (x = C++ ∨ x = Python)",
+        "gold_premise": "∀x (Project(x) → (WrittenIn(x, cplusplus) ⊕ WrittenIn(x, python)))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 520,
+        "generated_premise": "∀x (DoingProject(x, Python) → ¬UsesMac(x, sam))",
+        "gold_premise": "∀x (Project(x) ∧ WrittenIn(x, python) ∧ Do(sam, x) → ¬Use(sam, mac))",
+        "bleu": 0.19725007363794825,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 520,
+        "generated_premise": "UsesMac(sam, mac)",
+        "gold_premise": "Use(sam, mac)",
+        "bleu": 0.7598356856515925,
+        "LE": 1.0
+    },
+    {
+        "example_id": 520,
+        "generated_premise": "∀x (UsesMac(x, sam) → PlaysSong(x, sam))",
+        "gold_premise": "∃x (Use(sam, mac) ∧ Song(x) → Play(sam, x))",
+        "bleu": 0.0,
+        "LE": 0.875
+    },
+    {
+        "example_id": 520,
+        "generated_premise": "∀x (PlaysSong(x, sam) → (x = Song \"Perfect\" ∨ ¬PlaysSong(x, sam)))",
+        "gold_premise": "∀x (Song(x) ∧ Play(sam, x) → Titled(x, perfect))",
+        "bleu": 0.0,
+        "LE": 0.0
+    },
+    {
+        "example_id": 520,
+        "generated_conclusion": "PlaysSong(sam, Song \"Perfect\") → PlaysSong(sam, sam, Song \"Perfect\")",
+        "gold_conclusion": "∀x (Titled(x, perfect) → Play(sam, x))",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 698,
+        "generated_premise": "∀x (IsA(x, rabbit) → HasFur(x))",
+        "gold_premise": "∀x (Rabbit(x) → Have(x, fur))",
+        "bleu": 0.0,
+        "LE": 1.0
+    },
+    {
+        "example_id": 698,
+        "generated_premise": "∃x (IsPet(x) ∧ IsA(x, rabbit))",
+        "gold_premise": "∃x (Pet(x) ∧ Rabbit(x))",
+        "bleu": 0.29615165360116247,
+        "LE": 1.0
+    },
+    {
+        "example_id": 698,
+        "generated_conclusion": "¬∃x (IsPet(x) ∧ ¬HasFur(x))",
+        "gold_conclusion": "∃x ∃y (Pet(x) ∧ Pet(y) ∧ ¬Have(x, fur) ∧ ¬Have(y, fur))",
+        "bleu_conclusion": 0.1039817784542322,
+        "LE_conclusion": 0.3125
+    },
+    {
+        "example_id": 1385,
+        "generated_premise": "∀x (SocialMediaApplication(x) ∧ HasChatFeature(x) → IsSoftware(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Contain(x, chatFeature) → Software(x))",
+        "bleu": 0.27465710114095526,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1385,
+        "generated_premise": "∀x (SocialMediaApplication(x) ∧ AllowsMessageSending(x) → HasChatFeature(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ AllowToSendTo(x, user, message) → Contain(x, chatFeature))",
+        "bleu": 0.16317456445879727,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1385,
+        "generated_premise": "∀x (SocialMediaApplication(x) → (HasChatFeature(x) ∨ HasVideoFeature(x)))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) → Contain(x, chatFeature) ∨ Contain(x, videoFeature))",
+        "bleu": 0.19487130958544754,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1385,
+        "generated_premise": "∀x (SocialMediaApplication(x) ∧ HasVideoFeature(x) → AllowsVideoUpload(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Contain(x, videoFeature) → Allow(x, user, uploadVideo))",
+        "bleu": 0.16317456445879727,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1385,
+        "generated_premise": "∀x (SocialMediaApplication(x) → IsSoftware(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Software(x) → ComputerProgram(x))",
+        "bleu": 0.22050511532241882,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 1385,
+        "generated_premise": "∀x (SocialMediaApplication(x) ∧ HasHighEngagementMetrics(x) → IsAddictive(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧Have(x, highEngagementMetric) → Addictive(x))",
+        "bleu": 0.27465710114095526,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1385,
+        "generated_premise": "∀x (IsAddictive(x) → ¬IsIdealForPreteens(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Addictive(x) → ¬IdealFor(x, preteen))",
+        "bleu": 0.1954079353247154,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 1385,
+        "generated_premise": "SocialMediaApplication(tiktok)",
+        "gold_premise": "SocialMedia(tikTok) ∧ Application(tikTok) ∧ ¬IdealFor(tikTok, preteen)",
+        "bleu": 0.0,
+        "LE": 0.625
+    },
+    {
+        "example_id": 1385,
+        "generated_conclusion": "IsSoftware(tiktok)",
+        "gold_conclusion": "ComputerProgram(tikTok)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 1.0
+    },
+    {
+        "example_id": 1386,
+        "generated_premise": "∀x (SocialMediaApplication(x) ∧ HasChatFeature(x) → Software(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Contain(x, chatFeature) → Software(x))",
+        "bleu": 0.4049892510502097,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1386,
+        "generated_premise": "∀x (SocialMediaApplication(x) ∧ AllowsMessageSending(x) → HasChatFeature(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ AllowToSendTo(x, user, message) → Contain(x, chatFeature))",
+        "bleu": 0.16317456445879727,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1386,
+        "generated_premise": "∀x (SocialMediaApplication(x) → HasChatFeature(x) ∨ HasVideoFeature(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) → Contain(x, chatFeature) ∨ Contain(x, videoFeature))",
+        "bleu": 0.18235068731635434,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1386,
+        "generated_premise": "∀x (SocialMediaApplication(x) ∧ HasVideoFeature(x) → AllowsVideoUpload(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Contain(x, videoFeature) → Allow(x, user, uploadVideo))",
+        "bleu": 0.16317456445879727,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1386,
+        "generated_premise": "∀x (SocialMediaApplication(x) → Software(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Software(x) → ComputerProgram(x))",
+        "bleu": 0.2688264926467264,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 1386,
+        "generated_premise": "∀x (SocialMediaApplication(x) ∧ HasHighEngagementMetrics(x) → Addictive(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧Have(x, highEngagementMetric) → Addictive(x))",
+        "bleu": 0.4049892510502097,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1386,
+        "generated_premise": "∀x (Addictive(x) → ¬IdealForPreteens(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Addictive(x) → ¬IdealFor(x, preteen))",
+        "bleu": 0.23707743589688696,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 1386,
+        "generated_premise": "SocialMediaApplication(tiktok)",
+        "gold_premise": "SocialMedia(tikTok) ∧ Application(tikTok) ∧ ¬IdealFor(tikTok, preteen)",
+        "bleu": 0.0,
+        "LE": 0.625
+    },
+    {
+        "example_id": 1386,
+        "generated_conclusion": "IdealForPreteens(tiktok) ∨ Software(tiktok)",
+        "gold_conclusion": "IdealFor(tikTok, preteen) ⊕ ComputerProgram(tikTok)",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.75
+    },
+    {
+        "example_id": 1387,
+        "generated_premise": "∀x (ChatFeatures(x) → IsSoftware(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Contain(x, chatFeature) → Software(x))",
+        "bleu": 0.15035543481617109,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 1387,
+        "generated_premise": "∀x (HasMessageSendingFeature(x) → ChatFeatures(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ AllowToSendTo(x, user, message) → Contain(x, chatFeature))",
+        "bleu": 0.0,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 1387,
+        "generated_premise": "∀x (HasFeatures(x) → (ChatFeatures(x) ∨ VideoFeatures(x)))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) → Contain(x, chatFeature) ∨ Contain(x, videoFeature))",
+        "bleu": 0.19487130958544754,
+        "LE": 0.9375
+    },
+    {
+        "example_id": 1387,
+        "generated_premise": "∀x (VideoFeatures(x) → HasVideoUploadFeature(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Contain(x, videoFeature) → Allow(x, user, uploadVideo))",
+        "bleu": 0.0,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 1387,
+        "generated_premise": "∀x (IsSoftware(x) → IsComputerProgram(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Software(x) → ComputerProgram(x))",
+        "bleu": 0.22050511532241882,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 1387,
+        "generated_premise": "∀x (HasHighEngagementMetrics(x) → IsAddictive(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧Have(x, highEngagementMetric) → Addictive(x))",
+        "bleu": 0.15035543481617109,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 1387,
+        "generated_premise": "∀x (IsAddictive(x) → ¬IdealForPreteens(x))",
+        "gold_premise": "∀x (SocialMedia(x) ∧ Application(x) ∧ Addictive(x) → ¬IdealFor(x, preteen))",
+        "bleu": 0.1954079353247154,
+        "LE": 0.8125
+    },
+    {
+        "example_id": 1387,
+        "generated_premise": "IsSocialMediaApplication(tiktok)",
+        "gold_premise": "SocialMedia(tikTok) ∧ Application(tikTok) ∧ ¬IdealFor(tikTok, preteen)",
+        "bleu": 0.0,
+        "LE": 0.625
+    },
+    {
+        "example_id": 1387,
+        "generated_conclusion": "¬ChatFeatures(tiktok) ∨ ¬IsComputerProgram(tiktok)",
+        "gold_conclusion": "¬Contain(tikTok, chatFeature) ∨ ¬ComputerProgram(tikTok))",
+        "bleu_conclusion": 0.0,
+        "LE_conclusion": 0.0
+    }
+]

@@ -1,0 +1,11 @@
+[
+  "N/A\n\n### Comments:\nN/A\n\n\nNote: The \"N/A\" in the FOL correction section means that there are no corrections to be made to the FOL premises or conclusion.",
+  "### FOL premises: \n∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))\n∀x (DrinkRegularly(x, coffee) ∨ (¬WantToBeAddictedTo(x, caffeine)))\n∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))\n¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))\n¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))\n### FOL conclusion: \nDrinkRegularly(rina, coffee) ∨ IsUnawareThatCaffeineIsADrug(rina)\n\n\nNote: In this format, the \"already correct: false\" indicates that there are corrections to be made in the first-order logic translation of the natural language statements.",
+  "### FOL premises: \n∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))\n∀x (DrinkRegularly(x, coffee) ∨ (¬WantToBeAddictedTo(x, caffeine)))\n∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))\n¬(Student(rina) ⊕ ¬AwareThatDrug(rina, caffeine))\n¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))\n∃x (Student(x) ∧ IsUnawareThatCaffeineIsADrug(x) ∧ x = rina) ∨ ¬Student(rina) ∧ AwareThatDrug(rina, caffeine)\n### FOL conclusion: \n(¬WantToBeAddictedTo(rina, caffeine) ∧ IsUnawareThatCaffeineIsADrug(rina))",
+  "N/A\n\n### Comments:\nN/A",
+  "N/A\n\n### Comments:\nN/A\n\n### Notes:\nN/A\n\n### References:\nN/A",
+  "N/A\n\nExplanation:\nThere are no errors in the FOL premises or conclusion. The translation is correct.",
+  "N/A\n\n### Comments:\nN/A\n\n### Additional Notes:\nN/A",
+  "N/A\n\n### Comments:\nN/A\n\nThe given natural language premises and conclusion are:\n\nNL premises:\nAll eels are fish.\nNo fish are plants.\nEverything displayed in the collection is either a plant or an animal.\nAll multicellular animals are not bacteria.\nAll animals displayed in the collection are multicellular.\nA sea eel is displayed in the collection.\nThe sea eel is an eel or an animal or not a plant.\n\nNL conclusion:\nThe sea eel is bacteria.\n\nThe FOL premises and conclusion are:\n\nFOL premises:\n∀x (IsEel(x) → IsFish(x))\n∀x (IsFish(x) → ¬IsPlant(x))\n∀x (IsInCollection(x) → (IsPlant(x) ∨ IsAnimal(x)))\n∀x (IsMulticellularAnimal(x) → ¬IsBacteria(x))\n∀x (IsInCollection(x) → IsMulticellularAnimal(x))\nIs",
+  "N/A"
+]

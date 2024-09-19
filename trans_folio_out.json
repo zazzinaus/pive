@@ -1,0 +1,13 @@
+[
+    {
+        "generated_fol_premises": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))\n∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))\n∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))\n¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))\n¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))",
+        "fol_context": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))\n∀x (DrinkRegularly(x, coffee)  ∨ (¬WantToBeAddictedTo(x, caffeine)))\n∀x (¬WantToBeAddictedTo(x, caffeine) → ¬AwareThatDrug(x, caffeine))\n¬(Student(rina) ⊕  ¬AwareThatDrug(rina, caffeine))\n¬(IsDependentOn(rina, caffeine) ⊕ Student(rina))",
+        "generated_fol_conclusion": "(¬WantToBeAddictedTo(rina, caffeine) ∨ ¬AwareThatDrug(rina, caffeine))",
+        "gold_conclusion": "¬WantToBeAddictedTo(rina, caffeine) ∨ (¬AwareThatDrug(rina, caffeine))",
+        "gold_answer": "True",
+        "example_id": 1126,
+        "nl_context": "All people who regularly drink coffee are dependent on caffeine.\nPeople regularly drink coffee, or they don't want to be addicted to caffeine, or both.\nNo one who doesn't want to be addicted to caffeine is unaware that caffeine is a drug.\nRina is either a student who is unaware that caffeine is a drug, or she is not a student and is she aware that caffeine is a drug.\nRina  is either a student who is dependent on caffeine, or she is not a student and not dependent on caffeine.",
+        "nl_question": "Rina doesn't want to be addicted to caffeine or is unaware that caffeine is a drug.",
+        "context_id": 406
+    }
+]

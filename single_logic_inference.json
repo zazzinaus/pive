@@ -1,0 +1,15 @@
+{
+  "generated_fol_premises": "∀x (InJamesFamily(x) ∧ SubscribeToAMCAList(x) → EligibleToWatchMovies(x, 3))\n∃x (InJamesFamily(x) ∧ GoToCinemas(x))\n∀x (InJamesFamily(x) → (SubscribeToAMCAList(x) ∨ SubscribeToHBO(x)))\n∀x (InJamesFamily(x) ∧ PreferTVSeries(x) → ¬WatchTVSeriesInCinemas(x))\n∀x (InJamesFamily(x) ∧ SubscribeToHBO(x) → PreferTVSeries(x))\nInJamesFamily(lily)",
+  "fol_context": "∀x ((Customer(x) ∧ In(x, jameSFamily) ∧ SubscribedTo(x, aMCAList)) →  EligibleForThreeFreeMoviesEveryWeekWithoutAdditionalFees(x))\n∃x ∃y (Customer(x) ∧ In(x, jameSFamily) ∧ GoToEveryWeek(x, cinema) ∧ (¬(x=y)) ∧ Customer(y) ∧ In(y, jameSFamily) ∧ GoToEveryWeek(y, cinema))\n∀x (Customer(x) ∧ In(x, jameSFamily) ∧ (SubscribedTo(x, aMCAList) ∨ SubscribedTo(x, hBO)))\n∀x ((Customer(x) ∧ In(x, jameSFamily) ∧ Prefer(x, tVSeries)) → (¬WatchIn(x, tV, cinema)))\n∀x ((Customer(x) ∧ In(x, jameSFamily) ∧  SubscribedTo(x, hBO)) → Prefer(x, tVSeries))\nCustomer(lily) ∧ In(lily, jameSFamily ∧ WatchIn(lily, tV, cinema)",
+  "generated_fol_conclusion": "GoToCinemas(lily)",
+  "gold_conclusion": "GoToEveryWeek(lily, cinema)",
+  "gold_answer": "Uncertain",
+  "example_id": 1192,
+  "nl_context": "All customers in James' family who subscribe to AMC A-List are eligible to watch three movies every week without any additional fees. \nSome of the customers in James' family go to the cinema every week.\nCustomers in James' family subscribe to AMC A-List or HBO service. \nCustomers in James' family who prefer TV series will not watch TV series in cinemas.\nAll customers in James' family who subscribe to HBO services prefer TV series to movies. \nLily is in James' family; she watches TV series in cinemas. ",
+  "nl_question": "Lily goes to cinemas every week.",
+  "context_id": 422,
+  "prover_answer": "Uncertain",
+  "prover_status": "",
+  "prover_error": "",
+  "is_correct": true
+}

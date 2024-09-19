@@ -1,0 +1,7 @@
+strippa question e passale a logicllama,
+prendi una traduzione e passala a prover9
+calcola LE (anche con prover9?) con folio gold
+
+al gate passano solo le true false e max iteration
+le uncertain sono da rigenerare comprese di unification stack 
+

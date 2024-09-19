@@ -1,0 +1,20 @@
+click
+datasets
+transformers
+peft @ git+https://github.com/huggingface/peft.git
+sentencepiece
+python-dotenv
+huggingface_hub
+protobuf
+accelerate
+bitsandbytes
+evaluate
+python-Levenshtein
+tqdm
+wandb
+xformers
+trl
+nltk
+ply
+z3
+rouge_score
